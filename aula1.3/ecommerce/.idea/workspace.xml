@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91310747-84ea-4675-9ea2-d93a6c439e43" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Clojure Namespace" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1R0nFX8ejYuIBK6frBkjD4yOhZu" />
+  <component name="PropertiesComponent">
+    <property name="cursive.last.file.extension./Users/aluralaranja/Documents/Guilherme/datomic1-introducao/projeto/ecommerce/src" value="clj" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="ReplState" timestamp="1568817578767">{:repl-history {:ide [], :local [{:command &quot;(pprint db/schema)&quot;, :offset 18, :ns &quot;ecommerce.core&quot;} {:command &quot;(pprint conn)&quot;, :offset 13, :ns &quot;ecommerce.core&quot;} {:command &quot;(d/transact conn {:tx-data db/schema})&quot;, :offset 38, :ns &quot;ecommerce.core&quot;} {:command &quot;(pprint (d/create-database db-uri))&quot;, :offset 35, :ns &quot;ecommerce.db&quot;} {:command &quot;(def movie-schema [{:db/ident :movie/title\n                    :db/valueType :db.type/string\n                    :db/cardinality :db.cardinality/one\n                    :db/doc \&quot;The title of the movie\&quot;}\n\n                   {:db/ident :movie/genre\n                    :db/valueType :db.type/string\n                    :db/cardinality :db.cardinality/one\n                    :db/doc \&quot;The genre of the movie\&quot;}\n\n                   {:db/ident :movie/release-year\n                    :db/valueType :db.type/long\n                    :db/cardinality :db.cardinality/one\n                    :db/doc \&quot;The year the movie was released in theaters\&quot;}])&quot;, :offset 638, :ns &quot;ecommerce.core&quot;} {:command &quot;(d/transact conn {:tx-data movie-schema})&quot;, :offset 41, :ns &quot;ecommerce.core&quot;} {:command &quot;(d/transact conn movie-schema)&quot;, :offset 30, :ns &quot;ecommerce.core&quot;} {:command &quot;(d/delete-database db-uri)&quot;, :offset 26, :ns &quot;ecommerce.db&quot;} {:command &quot;(require '[datomic.api :as d])&quot;, :offset 30, :ns &quot;ecommerce.core&quot;} {:command &quot;(def db-uri \&quot;datomic:dev://localhost:4334/hello\&quot;)&quot;, :offset 49, :ns &quot;ecommerce.core&quot;} {:command &quot;(d/create-database db-uri)&quot;, :offset 26, :ns &quot;ecommerce.core&quot;}], :remote []}}</component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="REPL for ecommerce" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="ecommerce" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="0" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Clojure REPL.REPL for ecommerce" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91310747-84ea-4675-9ea2-d93a6c439e43" name="Default Changelist" comment="" />
+      <created>1568812777721</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568812777721</updated>
+    </task>
+    <servers />
+  </component>
+</project>
